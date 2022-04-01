@@ -49,7 +49,7 @@ router.post('/register', checkIfValid, checkUsernameExists, (req, res, next) => 
   */
 });
 
-router.post('/login', (req, res, next) => {
+router.post('/login', checkIfValid, (req, res, next) => {
   let { username, password } = req.body
 
   User.findBy({ username })
