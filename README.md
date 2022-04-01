@@ -10,9 +10,9 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Setup
 
-- [ ] Run `npm install` to install your dependencies.
-- [ ] Build your database executing `npm run migrate`.
-- [ ] Run tests locally executing `npm test`.
+- [x] Run `npm install` to install your dependencies.
+- [x] Build your database executing `npm run migrate`.
+- [x] Run tests locally executing `npm test`.
 
 ## Project Instructions
 
@@ -28,7 +28,7 @@ We will hash the user's password using `bcryptjs`, and use JSON Web Tokens and t
 
 Your finished project must include all of the following requirements (further instructions are found inside each file):
 
-- [ ] An authentication workflow with functionality for account creation and login, implemented inside `api/auth/auth-router.js`.
+- [x] An authentication workflow with functionality for account creation and login, implemented inside `api/auth/auth-router.js`.
 - [ ] Middleware used to restrict access to resources from non-authenticated requests, implemented inside `api/middleware/restricted.js`.
 - [ ] A minimum of 2 tests per API endpoint, written inside `api/server.test.js`.
 
@@ -54,6 +54,7 @@ Your finished project must include all of the following requirements (further in
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics.
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
+
 2. What does `bcryptjs` do to help us store passwords in a secure manner?
 3. How are unit tests different from integration and end-to-end testing?
 4. How does _Test Driven Development_ change the way we write applications and tests?
